@@ -92,5 +92,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'ajj-test-storage'
-              appName: '$(WebAppNameDev)'
+              appName: '$(Webappwindev)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
